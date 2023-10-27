@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Hình ảnh -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_flashcard" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#90000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableTop="@drawable/volume_icon"
+                android:paddingTop="10dp"
+                android:backgroundTint="@color/white"
+                android:id="@+id/btnVolumeflash"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:id="@+id/txtWord"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pronunciation"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:id="@+id/txtpro"/>
+
+        <ImageView
+            android:id="@+id/imageContent"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/image_word"
+             />
+        <TextView
+            android:id="@+id/hiddenTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="Đây là TextView ẩn"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/showButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Flip" />
+    </LinearLayout>
+</RelativeLayout>

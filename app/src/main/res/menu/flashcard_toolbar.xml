@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_left"
+        android:title="Left"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_arrow_back_ios_new_24"
+        />
+    <item
+        android:id="@+id/action_right"
+        android:title="Right"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/train_icon"/>
+</menu>

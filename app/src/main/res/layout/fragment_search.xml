@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- res/layout/fragment_search.xml -->
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/radius_edit_text"
+            android:drawableLeft="@drawable/baseline_search_24"
+            android:hint="Nhập từ khóa tìm kiếm"
+            android:paddingLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textColorHint="#9b9a9a"
+            android:drawablePadding="8dp"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_search"/>
+
+
+
+
+
+
+
+</LinearLayout>

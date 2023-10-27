@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Các chức năng của bạn -->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ghép từ"-->
+<!--        android:id="@+id/btnGhepTu"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhớ nghĩa"
+        android:id="@+id/btnNhoNghia"/>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Nghe hiểu"-->
+<!--        android:id="@+id/btnNgheHieu"/>-->
+
+
+
+    <!-- Nút tắt bottom sheet -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy bỏ"
+        android:onClick="dismissBottomSheet"/>
+</LinearLayout>
